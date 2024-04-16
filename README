@@ -1,0 +1,30 @@
+# Joke & Meme Generator
+
+## Description
+This is a fun web application that generates random jokes and popular memes. Users can click on buttons to fetch new jokes and memes, making it an entertaining way to pass the time.
+
+## Features
+- Fetches random jokes from a third-party API and displays them on the page.
+- Retrieves popular memes from another third-party API and showcases them to users.
+- Users can click on buttons to get new jokes and memes, providing an interactive experience.
+- Fun and visually appealing design with styled buttons and content containers.
+
+## Third-Party APIs Used
+1. **Official Joke API**: This API provides random jokes with setup and punchline. [API Link](https://official-joke-api.appspot.com/random_joke)
+2. **Imgflip API**: This API fetches popular memes for display. [API Link](https://api.imgflip.com/get_memes)
+
+## How to Use
+1. Open the web application in a browser.
+2. Click on the "Get Another Joke" button to fetch a new joke.
+3. Click on the "Get Another Meme" button to fetch a new meme.
+4. Enjoy the jokes and memes!
+
+## Installation
+No installation required. Simply open the `index.html` file in a web browser to run the application.
+
+## Credits
+- This application was created by [Your Name].
+- Special thanks to the creators of the Official Joke API and Imgflip API for providing the data.
+
+## License
+This project is licensed under the [MIT License](LICENSE).

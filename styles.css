@@ -1,0 +1,78 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
+    background-color: #f0f0f0;
+    color: #333;
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center content */
+}
+
+/* Header styles */
+header h1 {
+    font-size: 3rem; /* Larger font size */
+    color: #fff; /* White text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+/* Content styles */
+.content {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content h2 {
+    font-size: 2rem; /* Larger font size */
+    margin-bottom: 20px; /* Increased margin */
+}
+
+/* Joke styles */
+.joke {
+    margin-bottom: 20px; /* Increased margin */
+}
+
+/* Meme styles */
+#meme-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Button styles */
+.btn {
+    display: inline-block; /* Display buttons inline */
+    margin-top: 20px; /* Add margin to top */
+    padding: 15px 30px; /* Increased padding */
+    border: none;
+    border-radius: 30px; /* Rounder corners */
+    background-color: #ff6600; /* Orange background */
+    color: #fff; /* White text color */
+    font-size: 1.2rem; /* Larger font size */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff9933; /* Lighter orange on hover */
+}
